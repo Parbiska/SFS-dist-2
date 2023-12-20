@@ -58,3 +58,8 @@
   src: url(../fonts/helvetica_bold.otf) format("opentype");
   font-weight: 700;
 }
+@font-face {
+  font-family: "SF Pro Displa";
+  src: url(../fonts/SF-Pro-Display-Semibold.otf) format("opentype");
+  font-weight: 600;
+}

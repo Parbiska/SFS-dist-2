@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="../../css/libs/reset.css" />
+		<link rel="stylesheet" href="../../css/fonts.css" />
+		<link rel="stylesheet" href="../../css/style.css" />
+		<link rel="stylesheet" href="../../css/responsive.css" />
+
+		<style>
+			.main-container {
+				width: 1000px;
+
+				margin: 0 auto;
+			}
+
+			.main-container__item {
+				display: flex;
+
+				width: 609px;
+
+				margin-top: 191px;
+
+				.summary {
+					max-width: 300px;
+				}
+			}
+
+			.main-container__title {
+				width: 286px;
+
+				margin-right: 23px;
+
+				font-family: "Suisse Int'l";
+				font-size: 50px;
+				font-weight: 400;
+				line-height: 135%;
+
+				color: #000;
+				letter-spacing: -0.25px;
+			}
+		</style>
+
+		<title>Second Friend Store</title>
+	</head>
+	<body>
+		<main>
+			<div class="main-container">
+				<div class="main-container__item">
+					<div class="main-container__title">Default</div>
+
+					<div class="summary">
+						<div class="summary__wrapper">
+							<h3 class="summary__title">Ваш заказ</h3>
+
+							<div class="summary__line order__line_mt12">
+								<div class="summary__text">
+									3 товара на сумму
+								</div>
+
+								<div class="summary__text">59 900 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">Доставка</div>
+
+								<div class="summary__text">не выбрана</div>
+							</div>
+
+							<form class="summary__promo">
+								<div class="summary__promo-input">
+									<input placeholder="Промокод" type="text" />
+
+									<button class="summary__promo-submit">
+										→
+									</button>
+								</div>
+							</form>
+
+							<div class="summary__total">
+								<div>Итого</div>
+
+								<div>60 200 Р</div>
+							</div>
+
+							<label class="summary__processing">
+								<input type="checkbox" />
+								<span></span>
+								<p>
+									Согласен на обработку
+									<a
+										href="#"
+										class="summary__processing-link"
+									>
+										персональных данных
+									</a>
+								</p>
+							</label>
+
+							<button
+								class="summary__button order__button_checkout"
+							>
+								Оформить заказ
+							</button>
+						</div>
+
+						<a href="#" class="summary__confidentiality"
+							>Конфиденциальность</a
+						>
+					</div>
+				</div>
+
+				<div class="main-container__item">
+					<div class="main-container__title">Доставка курьером</div>
+
+					<div class="summary">
+						<div class="summary__wrapper">
+							<h3 class="summary__title">Ваш заказ</h3>
+
+							<div class="summary__line order__line_mt12">
+								<div class="summary__text">
+									3 товара на сумму
+								</div>
+
+								<div class="summary__text">59 900 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">Доставка</div>
+
+								<div class="summary__text">300 Р</div>
+							</div>
+
+							<form class="summary__promo">
+								<div class="summary__promo-input">
+									<input placeholder="Промокод" type="text" />
+
+									<button class="summary__promo-submit">
+										→
+									</button>
+								</div>
+							</form>
+
+							<div class="summary__total">
+								<div>Итого</div>
+
+								<div>60 200 Р</div>
+							</div>
+
+							<label class="summary__processing">
+								<input type="checkbox" />
+								<span></span>
+								<p>
+									Согласен на обработку
+									<a
+										href="#"
+										class="summary__processing-link"
+									>
+										персональных данных
+									</a>
+								</p>
+							</label>
+
+							<button
+								class="summary__button order__button_checkout"
+							>
+								Оформить заказ
+							</button>
+						</div>
+
+						<a href="#" class="summary__confidentiality"
+							>Конфиденциальность</a
+						>
+					</div>
+				</div>
+
+				<div class="main-container__item">
+					<div class="main-container__title">Ввод промокода</div>
+
+					<div class="summary">
+						<div class="summary__wrapper">
+							<h3 class="summary__title">Ваш заказ</h3>
+
+							<div class="summary__line order__line_mt12">
+								<div class="summary__text">
+									3 товара на сумму
+								</div>
+
+								<div class="summary__text">59 900 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">Доставка</div>
+
+								<div class="summary__text">не выбрана</div>
+							</div>
+
+							<form class="summary__promo">
+								<div class="summary__promo-input">
+									<input
+										placeholder="Промокод"
+										type="text"
+										value="ABBYY"
+									/>
+
+									<button class="summary__promo-submit">
+										→
+									</button>
+								</div>
+							</form>
+
+							<div class="summary__total">
+								<div>Итого</div>
+
+								<div>60 200 Р</div>
+							</div>
+
+							<label class="summary__processing">
+								<input type="checkbox" />
+								<span></span>
+								<p>
+									Согласен на обработку
+									<a
+										href="#"
+										class="summary__processing-link"
+									>
+										персональных данных
+									</a>
+								</p>
+							</label>
+
+							<button
+								class="summary__button order__button_checkout"
+							>
+								Оформить заказ
+							</button>
+						</div>
+
+						<a href="#" class="summary__confidentiality"
+							>Конфиденциальность</a
+						>
+					</div>
+				</div>
+
+				<div class="main-container__item">
+					<div class="main-container__title">Промокод активен</div>
+
+					<div class="summary">
+						<div class="summary__wrapper">
+							<h3 class="summary__title">Ваш заказ</h3>
+
+							<div class="summary__line order__line_mt12">
+								<div class="summary__text">
+									3 товара на сумму
+								</div>
+
+								<div class="summary__text">59 900 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">Доставка</div>
+
+								<div class="summary__text">300 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">
+									Скидка по промокоду
+								</div>
+
+								<div class="summary__text">-599 Р</div>
+							</div>
+
+							<div class="summary__promo">
+								<div class="summary__promo-success">
+									<div>
+										<div class="summary__promo-code">
+											ABBY1021
+										</div>
+										<div class="summary__promo-text">
+											10% скидка на доставку
+										</div>
+									</div>
+
+									<div class="summary__promo-close">
+										<img
+											src="../../assets/icons/cart/promo/cross.svg"
+											alt="Закрыть"
+										/>
+									</div>
+								</div>
+							</div>
+
+							<div class="summary__total">
+								<div>Итого</div>
+
+								<div>60 200 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">В рассрочку</div>
+
+								<div class="summary__text">20 500 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">К оплате</div>
+
+								<div class="summary__text">40 200 Р</div>
+							</div>
+
+							<label class="summary__processing">
+								<input type="checkbox" />
+								<span></span>
+								<p>
+									Согласен на обработку
+									<a
+										href="#"
+										class="summary__processing-link"
+									>
+										персональных данных
+									</a>
+								</p>
+							</label>
+
+							<button
+								class="summary__button order__button_checkout"
+							>
+								Оформить заказ
+							</button>
+						</div>
+
+						<a href="#" class="summary__confidentiality"
+							>Конфиденциальность</a
+						>
+					</div>
+				</div>
+
+				<div class="main-container__item">
+					<div class="main-container__title">Промокод устарел</div>
+
+					<div class="summary">
+						<div class="summary__wrapper">
+							<h3 class="summary__title">Ваш заказ</h3>
+
+							<div class="summary__line order__line_mt12">
+								<div class="summary__text">
+									3 товара на сумму
+								</div>
+
+								<div class="summary__text">59 900 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">Доставка</div>
+
+								<div class="summary__text">не выбрана</div>
+							</div>
+
+							<form class="summary__promo">
+								<div
+									class="summary__promo-input summary__promo-input_error"
+								>
+									<input
+										placeholder="Промокод"
+										type="text"
+										value="ABBYY233"
+									/>
+
+									<button class="summary__promo-submit">
+										→
+									</button>
+								</div>
+
+								<div
+									class="summary__promo-message summary__promo-message_error"
+								>
+									Промокод устарел
+								</div>
+							</form>
+
+							<div class="summary__total">
+								<div>Итого</div>
+
+								<div>60 200 Р</div>
+							</div>
+
+							<label class="summary__processing">
+								<input type="checkbox" />
+								<span></span>
+								<p>
+									Согласен на обработку
+									<a
+										href="#"
+										class="summary__processing-link"
+									>
+										персональных данных
+									</a>
+								</p>
+							</label>
+
+							<button
+								class="summary__button order__button_checkout"
+							>
+								Оформить заказ
+							</button>
+						</div>
+
+						<a href="#" class="summary__confidentiality"
+							>Конфиденциальность</a
+						>
+					</div>
+				</div>
+				<div class="main-container__item">
+					<div class="main-container__title">Промокод удален</div>
+
+					<div class="summary">
+						<div class="summary__wrapper">
+							<h3 class="summary__title">Ваш заказ</h3>
+
+							<div class="summary__line order__line_mt12">
+								<div class="summary__text">
+									3 товара на сумму
+								</div>
+
+								<div class="summary__text">59 900 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">Доставка</div>
+
+								<div class="summary__text">не выбрана</div>
+							</div>
+
+							<form class="summary__promo">
+								<div
+									class="summary__promo-input summary__promo-input_error"
+								>
+									<input placeholder="Промокод" type="text" />
+
+									<button class="summary__promo-submit">
+										→
+									</button>
+								</div>
+
+								<div
+									class="summary__promo-message summary__promo-message_delete"
+								>
+									Промокод удалён
+								</div>
+							</form>
+
+							<div class="summary__total">
+								<div>Итого</div>
+
+								<div>60 200 Р</div>
+							</div>
+
+							<label class="summary__processing">
+								<input type="checkbox" />
+								<span></span>
+								<p>
+									Согласен на обработку
+									<a
+										href="#"
+										class="summary__processing-link"
+									>
+										персональных данных
+									</a>
+								</p>
+							</label>
+
+							<button
+								class="summary__button order__button_checkout"
+							>
+								Оформить заказ
+							</button>
+						</div>
+
+						<a href="#" class="summary__confidentiality"
+							>Конфиденциальность</a
+						>
+					</div>
+				</div>
+				<div class="main-container__item">
+					<div class="main-container__title">Рассрочка</div>
+
+					<div class="summary">
+						<div class="summary__wrapper">
+							<h3 class="summary__title">Ваш заказ</h3>
+
+							<div class="summary__line order__line_mt12">
+								<div class="summary__text">
+									3 товара на сумму
+								</div>
+
+								<div class="summary__text">59 900 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">Доставка</div>
+
+								<div class="summary__text">300 Р</div>
+							</div>
+
+							<form class="summary__promo">
+								<div class="summary__promo-input">
+									<input placeholder="Промокод" type="text" />
+
+									<button class="summary__promo-submit">
+										→
+									</button>
+								</div>
+							</form>
+
+							<div class="summary__total">
+								<div>Итого</div>
+
+								<div>60 200 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">В рассрочку</div>
+
+								<div class="summary__text">20 500 Р</div>
+							</div>
+
+							<div class="summary__line">
+								<div class="summary__text">К оплате</div>
+
+								<div class="summary__text">40 200 Р</div>
+							</div>
+
+							<label class="summary__processing">
+								<input type="checkbox" />
+								<span></span>
+								<p>
+									Согласен на обработку
+									<a
+										href="#"
+										class="summary__processing-link"
+									>
+										персональных данных
+									</a>
+								</p>
+							</label>
+
+							<button
+								class="summary__button order__button_checkout"
+							>
+								Оформить рассрочку
+							</button>
+						</div>
+
+						<a href="#" class="summary__confidentiality"
+							>Конфиденциальность</a
+						>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
