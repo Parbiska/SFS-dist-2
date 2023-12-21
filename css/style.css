@@ -1073,6 +1073,9 @@
   padding-bottom: 20px;
   border-bottom: 1px solid var(--token-line-grey);
 }
+.cart__product:hover .cart__product-title a {
+  color: var(--primary-orange);
+}
 .cart__product:first-child {
   margin-top: 10px;
 }
@@ -1179,7 +1182,7 @@
 }
 .cart__product-favorite:hover {
   cursor: pointer;
-  color: var(--primary-orange);
+  color: var(--Neutral-400);
 }
 .cart__product-favorite:hover .cart__product-favorite-img {
   background: url(../assets/icons/cart/actions/wishlist-hover.svg) center center no-repeat;
