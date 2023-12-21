@@ -1,12 +1,20 @@
-const elList = document.querySelectorAll('.summary__conditions-item');
+const conditions = document.querySelectorAll('.summary__conditions-item');
 
-elList.forEach((el) => {
-	el.addEventListener('click', (e) => {
+conditions.forEach((condition) => {
+	condition.addEventListener('click', (e) => {
 		if (e.target.classList.contains('summary__conditions-title')) {
-			if (el.classList.contains('is-active')) {
-				el.classList.remove('is-active');
+			if (condition.classList.contains('is-active')) {
+				condition.classList.remove('is-active');
 			} else {
-				el.classList.add('is-active');
+				conditions.forEach((el) => {
+					if (el === condition) {
+						setTimeout(() => {
+							el.classList.add('is-active');
+						}, 200);
+					} else {
+						el.classList.remove('is-active');
+					}
+				});
 			}
 		}
 	});
